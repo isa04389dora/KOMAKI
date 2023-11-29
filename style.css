@@ -1,0 +1,150 @@
+#menu-h{
+    z-index: 1;
+    position: absolute;
+    top: 222px;
+    left: 30%;
+    background-color: rgb(0, 0, 0);
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+ 
+ 
+}
+
+#menu-h ul li a {
+    font-size: 20;
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(255, 0, 0);
+}
+#logo{
+    position: absolute;
+    left:50px ;
+    top:50px ;
+}
+#divBusca{
+    position: absolute;
+    top: 100px;
+    left: 38% ;
+    background-color:#E0EEEE;
+    border:solid 2px #ffffff;
+    border-radius:10px;
+    width:300px;
+    height:32px;
+  }
+  #txtBusca{
+    
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:191px;
+  }
+  #btnBusca{
+    position: absolute;
+    top: 0px;
+    left: 230px ;
+    border:none;
+    float:left;
+    height:32px;
+    border-radius:0 7px 7px 0;
+    width:70px;
+    font-weight:bold;
+    background:#ffffff;
+    border:solid 1px #ff0000;
+  }
+  
+#rodizio{
+    position: absolute;
+    top: 650px;
+    left: 140px;
+
+}
+
+
+
+p {
+    color: #FFFFFF;
+    font-size: 25px;
+    text-shadow: 1px 1px 1px #111111;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+* {
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+.conteiner{
+    width: 400px;
+    margin: auto;
+}
+
+
+.conteiner img{
+    width: 100px;
+   filter: opacity(80%);
+}
+
+.centro{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transition: translate(-50%, -50%)
+    text-align  center;
+    backdround-color : rgba(0,0,0,0.5);
+}
+
+.Restaurante{
+    left:120px;
+    top: 150px;
+    position: absolute;
+    padding: 24px 0;
+   
+}
+
+.Restaurante-todos{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 25% 25% 25% 25% 25% 25% 25%;
+}
+
+
+.Restaurante-div{
+    text-align: center;
+    padding: 16px 0;
+}
+
