@@ -1,4 +1,4 @@
-var slide = document.querySelector('.slideshow');
+var slide = document.querySelector('slideshow');
 var images = [
     'banner.png' ,
     'banner2.jpg',
