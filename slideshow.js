@@ -1,7 +1,7 @@
 var slide = document.querySelector('.slideshow');
 var images = [
-    '.banner.png' ,
-    '.banner2.jpg',
+    'banner.png' ,
+    'banner2.jpg',
     
 ];
 var time = 2000;
